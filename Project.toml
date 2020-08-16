@@ -1,0 +1,13 @@
+name = "Units"
+uuid = "564d9974-eead-4fa0-ba88-12ddc0f59997"
+authors = ["Robert Moss <mossr@cs.stanford.edu>"]
+version = "0.1.0"
+
+[deps]
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
