@@ -2,6 +2,11 @@
 A simple convenience wrapper around [Unitful.jl](https://github.com/PainterQubits/Unitful.jl/blob/master/src/pkgdefaults.jl
 ) that provides type aliases and exports units often used in aviation or automotive simulations.
 
+### Installation
+```julia
+] add https://github.com/mossr/Units.jl
+```
+
 # Unit Types
 These units are exported from Unitful with added type aliases.
 Note, `nmi` and `kt` were added.
@@ -25,6 +30,8 @@ rad::Radian
 
 # Examples
 ```julia
+julia> using Units
+
 julia> x = 1nmi
 
 julia> x/hr == 1kt
