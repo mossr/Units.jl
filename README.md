@@ -1,6 +1,6 @@
 # Units.jl
-A simple wrapper around [Unitful.jl](https://github.com/PainterQubits/Unitful.jl/blob/master/src/pkgdefaults.jl
-) that provides type aliases and exports certain units often used in aviation or automotive simulations.
+A simple convenience wrapper around [Unitful.jl](https://github.com/PainterQubits/Unitful.jl/blob/master/src/pkgdefaults.jl
+) that provides type aliases and exports units often used in aviation or automotive simulations.
 
 # Unit Types
 These units are exported from Unitful with added type aliases.
