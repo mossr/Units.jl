@@ -38,5 +38,6 @@ julia> sim(1ft, 2ft)
 5 ft^2
 
 julia> sim(1m, 2m)
-ERROR: MethodError
+ERROR: MethodError 
+# ^ that's a good thing!
 ```
